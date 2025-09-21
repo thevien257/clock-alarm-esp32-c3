@@ -1,1 +1,1 @@
-# clock-alarm-esp32-c3
+<img src="schematic.png" alt="Schematic" />
