@@ -545,8 +545,8 @@ void loop() {
       tTime.setText(myClock.timeString.c_str());
       tDate.setText(myClock.dateString.c_str());
       // tAlarm.setText(myClock.alarmString.c_str());
+      myClock.checkAlarms();
     }
-    myClock.checkAlarms();
   }
   nexLoop(nex_listen_list);
 }
